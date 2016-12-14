@@ -1,0 +1,276 @@
+@charset "utf-8";
+a,img{border:0;}
+
+#menu_content_bg {
+  width: 100%;
+  overflow: hidden;
+  position: absolute;
+  background: #fff;
+  z-index: 700;
+  top: 140px;
+  left: 0px;
+  transition: all 3s;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s; }
+  #menu_content_bg #menu_content_wrap ul {
+    height: auto;
+    width: 100%;
+    position: absolute;
+    color: #424242;
+    display: block; }
+    #menu_content_bg #menu_content_wrap ul li {
+      display: none;
+      width: 100%;
+      height: 230px; 
+	  }
+      #menu_content_bg #menu_content_wrap ul li .menu_content {
+        float: left;
+        width: 160px;
+        cursor: pointer;
+        margin-top: 30px; }
+        #menu_content_bg #menu_content_wrap ul li .menu_content p {
+          font-size: 13px;
+          text-align: center;
+          margin-top: 20px; }
+      #menu_content_bg #menu_content_wrap ul li .menu_content_line {
+        width: 0px;
+        height: 100px;
+        float: left;
+        margin: 30px 20px;
+        border-left: 1px solid #D0D0D0; }
+
+
+
+#big_banner_wrap {
+	width:100%;
+	height:460px;
+	/*height: 100%;*/
+	margin:0 auto;
+	position:relative;
+	color:#424242;
+}
+#big_banner_wrap #banner_menu_wrap {
+	width:100%;
+	height:100%;
+	float:left;
+	position:absolute;
+	background:rgba(0, 0, 0, 0.8);
+	z-index:600;
+}
+#big_banner_wrap #banner_menu_wrap .active {margin-top:5px; }
+#big_banner_wrap #banner_menu_wrap li {
+	width:100%;
+	height:37px;
+	position:relative;
+	transition:all 3s;
+	-webkit-transition:all .3s;
+	-moz-transition:all .3s;
+	-ms-transition:all .3s;
+	line-height:37px;
+	cursor:pointer;
+}
+#big_banner_wrap #banner_menu_wrap li a {
+	font-size:13px;
+	color:#ffffff;
+	margin-left:30px;
+	float:left;
+	text-decoration:none;
+}
+#big_banner_wrap #banner_menu_wrap li .banner_menu_i {
+	float:right;
+	font-size:20px;
+	margin-right:20px;
+}
+#big_banner_wrap #banner_menu_wrap li .banner_menu_content {
+	width:600px;
+	height:383px;
+	display:none;
+	z-index:610;
+	position:absolute;
+	left:205px;
+	background:#fff;
+	overflow: hidden;
+}
+#big_banner_wrap #banner_menu_wrap li .banner_menu_content .banner_menu_content_ul {
+	float:left;
+	width:280px;
+}
+#big_banner_wrap #banner_menu_wrap li .banner_menu_content .banner_menu_content_ul li {
+	width:250px;
+	height:60px;
+	padding:18px;
+	float:left;
+}
+#big_banner_wrap #banner_menu_wrap li .banner_menu_content .banner_menu_content_ul li a {
+	color:#424242;
+	margin-left:5px;
+	font-size:12px;
+}
+#big_banner_wrap #banner_menu_wrap li .banner_menu_content .banner_menu_content_ul li span {
+	width:59px;
+	height:25px;
+	float:right;
+	margin-top:5px;
+	border:1px solid #ff6700;
+	color:#FF6700;
+	font-size:13px;
+	line-height:24px;
+	text-align:center;
+	transition:all 3s;
+	-webkit-transition:all .3s;
+	-moz-transition:all .3s;
+	-ms-transition:all .3s;
+}
+#big_banner_wrap #banner_menu_wrap li .banner_menu_content .banner_menu_content_ul li span:hover {
+	background:#ff6700;
+	color:#ffffff;
+}
+
+/* 超小设备（手机，小于 768px） */
+/* Bootstrap 中默认情况下没有媒体查询 */
+
+
+@media (min-width: 320px) {
+
+}
+/* 小型设备（平板电脑，768px 起） */
+@media (min-width: 768px) { 
+    
+}
+
+/* 中型设备（台式电脑，992px 起） */
+@media (min-width: 992px) { 
+	#big_banner_wrap {
+	width:100%;
+	height:383px;
+	/*height: 100%;*/
+	margin:0 auto;
+	position:relative;
+	color:#424242;
+	}
+	#big_banner_wrap #banner_menu_wrap li .banner_menu_content_hiddendiv1 {
+	width: 600px;
+	 top: -5px;
+	}
+	#big_banner_wrap #banner_menu_wrap li .banner_menu_content_hiddendiv2 {
+	width: 600px;
+	 top: -42px;
+	}
+		#big_banner_wrap #banner_menu_wrap li .banner_menu_content_hiddendiv3 {
+	width: 900px;
+	 top: -79px;
+	}
+		#big_banner_wrap #banner_menu_wrap li .banner_menu_content_hiddendiv4 {
+	width: 300px;
+	 top: -116px;
+	}
+		#big_banner_wrap #banner_menu_wrap li .banner_menu_content_hiddendiv5 {
+	width: 300px;
+	 top: -153px;
+	}
+		#big_banner_wrap #banner_menu_wrap li .banner_menu_content_hiddendiv6 {
+	width: 300px;
+	 top: -190px;
+	}
+		#big_banner_wrap #banner_menu_wrap li .banner_menu_content_hiddendiv7 {
+	width: 300px;
+	 top: -227px;
+	}
+		#big_banner_wrap #banner_menu_wrap li .banner_menu_content_hiddendiv8 {
+	width: 600px;
+	 top: -264px;
+	}
+		#big_banner_wrap #banner_menu_wrap li .banner_menu_content_hiddendiv9 {
+	width: 300px;
+	 top: -301px;
+	}
+		#big_banner_wrap #banner_menu_wrap li .banner_menu_content_hiddendiv10 {
+	width: 300px;
+	 top: -338px;
+	}
+	#big_banner_wrap #banner_menu_wrap li a {
+	font-size:12px;
+	color:#ffffff;
+	margin-left:15px;
+	float:left;
+	text-decoration:none;
+	}
+	#big_banner_wrap #banner_menu_wrap li .banner_menu_content {
+	width:600px;
+	height:383px;
+	display:none;
+	z-index:610;
+	position:absolute;
+	left:162px;
+	background:#fff;
+}
+}
+
+/* 大型设备（大台式电脑，1256px 起） */
+@media (min-width: 1256px) { 
+    #big_banner_wrap {
+	width:100%;
+	height:383px;
+	/*height: 100%;*/
+	margin:0 auto;
+	position:relative;
+	color:#424242;
+	}
+	#big_banner_wrap #banner_menu_wrap li .banner_menu_content_hiddendiv1 {
+	width: 600px;
+	 top: -5px;
+	}
+	#big_banner_wrap #banner_menu_wrap li .banner_menu_content_hiddendiv2 {
+	width: 600px;
+	 top: -42px;
+	}
+		#big_banner_wrap #banner_menu_wrap li .banner_menu_content_hiddendiv3 {
+	width: 900px;
+	 top: -79px;
+	}
+		#big_banner_wrap #banner_menu_wrap li .banner_menu_content_hiddendiv4 {
+	width: 300px;
+	 top: -116px;
+	}
+		#big_banner_wrap #banner_menu_wrap li .banner_menu_content_hiddendiv5 {
+	width: 300px;
+	 top: -153px;
+	}
+		#big_banner_wrap #banner_menu_wrap li .banner_menu_content_hiddendiv6 {
+	width: 300px;
+	 top: -190px;
+	}
+		#big_banner_wrap #banner_menu_wrap li .banner_menu_content_hiddendiv7 {
+	width: 300px;
+	 top: -227px;
+	}
+		#big_banner_wrap #banner_menu_wrap li .banner_menu_content_hiddendiv8 {
+	width: 600px;
+	 top: -264px;
+	}
+		#big_banner_wrap #banner_menu_wrap li .banner_menu_content_hiddendiv9 {
+	width: 300px;
+	 top: -301px;
+	}
+		#big_banner_wrap #banner_menu_wrap li .banner_menu_content_hiddendiv10 {
+	width: 300px;
+	 top: -338px;
+	}
+	#big_banner_wrap #banner_menu_wrap li a {
+	font-size:13px;
+	color:#ffffff;
+	margin-left:30px;
+	float:left;
+	text-decoration:none;
+}
+#big_banner_wrap #banner_menu_wrap li .banner_menu_content {
+	width:600px;
+	height:383px;
+	display:none;
+	z-index:610;
+	position:absolute;
+	left:204px;
+	background:#fff;
+}
+}
